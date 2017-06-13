@@ -1,0 +1,34 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "Chatbot Tutorial",
+  "desc": "Chatbot tutorial Luis",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AboutMe"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "this is random",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who is ankit",
+      "intent": "AboutMe",
+      "entities": []
+    }
+  ]
+}
